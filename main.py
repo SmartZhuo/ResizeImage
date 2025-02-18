@@ -83,7 +83,7 @@ def save_image():
         messagebox.showinfo("Saved", f"Save to: {save_path}")
 
 
-load_button = tk.Button(root, text="Loading", command=load_image)
+load_button = tk.Button(root, text="Open", command=load_image)
 load_button.pack(pady=20)
 
 
